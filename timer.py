@@ -5,4 +5,4 @@ while True:
   print(time.ctime())
   os.system("ls")
   print("============================================================")
-  sleep(20)
+  time.sleep(20)
