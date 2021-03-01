@@ -6,3 +6,4 @@ while True:
   os.system("ls")
   print("============================================================")
   time.sleep(20)
+  os.system("clear")
