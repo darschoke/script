@@ -1,7 +1,12 @@
 #!/bin/bash
 
 while true; do
-  echo $(tr -dc A-Za-z0-9 </dev/urandom | head -c 13 ; echo '') > text_temp.txt
-  cat text_temp.txt
-  sleep 45
+        git clone https://github.com/darschoke/docker
+        sleep 5
+        rm -r docker
+        echo "Delete docker diirectory"
+        echo ""
+        echo ""
+        echo ""
+        sleep 245
 done
